@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">techVisionClass</string>
+    <string name="text_view">logInName</string>
+</resources>
