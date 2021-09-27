@@ -15,24 +15,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.205"
-        tools:srcCompat="@drawable/ic_launcher_background" />
+        tools:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="ContentDescription" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/send_message"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:layout_editor_absoluteY="546dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="546dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/delete_data"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        tools:layout_editor_absoluteY="546dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="546dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
